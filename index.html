@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySea</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./script.js"></script>
+</head>
+<body id="body">
+    <!-- header section -->
+    <div class="header">
+        <div class="content">
+            <img src="/mysea-logo/mysea-logo.png" id="logo" width="200px" height="100px">
+        </div>
+        <div class="content">
+            <h3>MySea<br>kalender</h3>
+        </div>
+        <div class="content">
+            <div id="userInfo">
+                Inloggad:<span id="userName"></span>
+            </div>
+        </div>
+        <div class="content">
+            <div id="userInfo">
+                Poäng kvar:<br><span id="pointsLeft"></span>
+            </div>
+        </div>
+    </div>
+    <!-- calender section -->
+    <div id="calenderContainer"></div>
+    <!-- booking popup section -->
+    <div id="myPopup" class="popup">
+        <div class="popupContainer">
+            <span id="close">&times;</span>
+            <h1 id="popHeading"></h1>
+            <img id="popImg" width="50%" height="50%">
+            <p id="bookingDate"></p>
+            <p id="totalCost"></p>
+            <button id="bookButton" style="background-color: #6da97c;">
+                Boka
+            </button>
+            <button id="closeButton" style="background-color: #c14041;">
+                Avbryt
+            </button>
+        </div>
+    </div>
+    <!-- footer section -->
+    <div class="footer">
+        <div class="footerText">Telefon: 040-693 85 00 | E-post: <a>info@mysea.se</a></div>
+    </div>
+</body>
+</html>
